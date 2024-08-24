@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Us_004">
+    <test name="Us_04 classlarini calistirma">
+        <packages>
+            <package name="tests.Us_004">
+
+            </package>
+        </packages>
+    </test>
+</suite>

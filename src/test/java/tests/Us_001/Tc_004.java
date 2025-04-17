@@ -37,7 +37,7 @@ public class Tc_004 extends ExtentReport {
         testOtomasyonuFormPage.passwordButonu.sendKeys(fakePass);
         testOtomasyonuFormPage.confirmPasswordButonu.sendKeys(fakePass);
         testOtomasyonuFormPage.registerSayfasiSignUpButonu.click();
-
+        ReusableMethods.bekle(2);
         testOtomasyonuFormPage.loginSayfasıEmailButonu.sendKeys(fakeEmail);
         testOtomasyonuFormPage.loginSayfasıPassButonu.sendKeys(fakePass);
         testOtomasyonuFormPage.loginSayfasıSigninButonu.click();

@@ -1,6 +1,8 @@
 package tests.Us_001;
 
 import com.github.javafaker.Faker;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.TestOtomasyonuFormPage;
@@ -40,6 +42,7 @@ public class Tc_002 extends ExtentReport{
 
 
         extentTest.info("Oluşturulmuş olan kullanici email ve şifre ile sisteme giriş yapar");
+        ReusableMethods.bekle(2);
         testOtomasyonuFormPage.loginSayfasıEmailButonu.sendKeys(fakeEmail);
         testOtomasyonuFormPage.loginSayfasıPassButonu.sendKeys(fakePass);
         testOtomasyonuFormPage.loginSayfasıSigninButonu.click();
@@ -47,6 +50,7 @@ public class Tc_002 extends ExtentReport{
 
 
         extentTest.pass("Kullanici oluşturulmuş email ve şifre ile giriş yapılabildiğini test eder.");
+        ReusableMethods.bekle(2);
         softAssert.assertTrue(testOtomasyonuFormPage.profilYazıElementi.isDisplayed());
 
         extentTest.addScreenCaptureFromBase64String(ReusableMethods.ekranResmi(Driver.getDriver()));

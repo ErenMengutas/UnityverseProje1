@@ -1,6 +1,6 @@
 # Kurs Bitirme Test Otomasyon Projesi
 
-Bu proje, [https://testotomasyonu.com/](https://testotomasyonu.com/) üzerinde bulunan web uygulamalarının işlevsel testlerini **Java**, **Selenium WebDriver**, **Cucumber** ve **TestNG** kullanarak otomasyona dönüştürmeyi amaçlayan kapsamlı bir test otomasyon projesidir.
+Bu proje, [https://testotomasyonu.com/](https://testotomasyonu.com/) üzerinde bulunan web uygulamalarının işlevsel testlerini **Java**, **Selenium WebDriver** ve **TestNG** kullanarak otomasyona dönüştürmeyi amaçlayan kapsamlı bir test otomasyon projesidir.
 
 ---
 
